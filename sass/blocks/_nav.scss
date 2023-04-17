@@ -1,0 +1,30 @@
+.container__nav {
+    background-color: black;
+}
+
+.nav{
+      padding-bottom: 166px;
+      background-color: black;
+      
+}
+
+.nav__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     max-width: 1170px;
+     padding-top: 22px;
+     padding-bottom: 18px;
+     margin: 0 auto;
+}
+
+.nav__list{
+    display: flex;
+     align-items: center;
+     column-gap: 56px;
+     font-weight: 400;
+    font-size: 17px;
+    line-height: 1.588;
+    color: #848895;
+    
+}
