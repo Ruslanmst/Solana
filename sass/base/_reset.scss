@@ -1,0 +1,42 @@
+// Делаем сброс по умолчанию!
+* {
+    // Модель для определения ширины и высоты
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+// Текст будет наследоватся от родителя 
+h1, h2, h3, h4, h5, h6, p  {
+    font-size: inherit;
+}
+
+input, button {
+    font-size: inherit;
+    font-family: inherit;
+    border: none;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
+
+ul, li {
+    // Убираем маркеры 
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button, input[type='submit']{
+    cursor: pointer;
+    background: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
