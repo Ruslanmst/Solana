@@ -1,0 +1,15 @@
+@mixin left-line($color) {
+    padding-left: 10px;
+    position: relative;
+
+    &::before {
+        content: "";
+        display: inline-block;
+        width: 2px;
+        height: 33px;
+        background: $color;
+        position: absolute;
+        top: -3px;
+        left: -5px;
+    }
+}

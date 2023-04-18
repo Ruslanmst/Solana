@@ -2,12 +2,15 @@
 @import "./base/reset";
 @import "./base/base";
 @import "./base/vars";
+@import "./base/mixins";
 
 
 // Blocks
 @import "./blocks/header";
 @import "./blocks/nav";
 @import "./blocks/main-content";
+@import "./mass-adoption.scss";
+ 
 
 
 
