@@ -1,0 +1,106 @@
+.main {
+background-color: black;
+}
+
+
+
+.content {
+    //  max-width: 833px;
+     max-width: 1196px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.content__text {
+    padding-bottom: 48px;
+    text-align: center;
+    
+    
+    p {
+        color: #FFFFFF;
+        padding-top: 55px;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 27px;
+        margin: 0 auto;
+        max-width: 589px;   
+    }
+}
+
+.content__title {
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 76px;
+    letter-spacing: 0.68px;
+    color: #FFFFFF;
+}
+
+.content__buttons {
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+    padding-bottom: 119px;
+}
+
+.btn__left {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: uppercase;
+    border: 1px solid  #FFFFFF;
+    border-radius: 36px;
+    padding: 16px 33px 16px 33px;
+
+    &:hover {
+        background: linear-gradient(98.88deg, #8C01FA -2.99%, #000000 102.28%);
+        color: $accent-color-btn;
+        transition: all 0.3s ease-in;
+        border: none;
+    }
+
+}
+
+.btn__right {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: uppercase;
+    border: 1px solid #FFFFFF;
+    border-radius: 36px;
+    padding: 16px 33px 16px 33px;
+   
+
+    &:hover {
+        background: linear-gradient(98.88deg, #8C01FA -2.99%, #000000 102.28%);
+        color: $accent-color-btn;
+        transition: all 0.3s ease-in;
+        border: none;  
+    }
+}
+
+.content__powering {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: #618ADC;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.content__socials {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1166px;
+    
+}
+
+.content__items {
+    max-width: 1166px;
+}
