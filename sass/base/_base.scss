@@ -1,14 +1,48 @@
+@import "./vars";
+
 body {
     font-family: 'Raleway', sans-serif;
 }
 
+.container-1060 {
+    max-width: 1060px;
+    margin-inline: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.text-lg {
+    font-size: 28px;
+}
+
+.text-sm {
+    font-size: 17px;
+}
+
+.text-gray {
+    color: $light-gray;
+}
+
+.mr-40px {
+    margin-right: 40px;
+}
 
 .container__header{
     width: 100%;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-} 
+}
 
 .container__nav { 
      width: 100%;
@@ -16,9 +50,7 @@ body {
     // padding-left: 15px;
     // padding-right: 15px;
     // padding-left: 325px;
-    // padding-right: 316px;
-    
-    
+    // padding-right: 316px; 
 }
 
 
