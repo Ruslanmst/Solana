@@ -21,6 +21,10 @@ body {
     justify-content: space-between;
 }
 
+.justify-center {
+    justify-content: center;
+}
+
 .text-lg {
     font-size: 28px;
 }
@@ -29,8 +33,28 @@ body {
     font-size: 17px;
 }
 
+.text-white {
+    color: $white;
+}
+
 .text-gray {
     color: $light-gray;
+}
+
+.text-violet {
+    color: $violet;
+}
+
+.text-green {
+    color: $green;
+}
+
+.text-yellow {
+    color: $yellow;
+}
+
+.text-pink {
+    color: $pink;
 }
 
 .mr-40px {

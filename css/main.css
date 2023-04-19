@@ -58,6 +58,10 @@ body {
   justify-content: space-between;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .text-lg {
   font-size: 28px;
 }
@@ -66,8 +70,28 @@ body {
   font-size: 17px;
 }
 
+.text-white {
+  color: #fff;
+}
+
 .text-gray {
   color: #c4c4c4;
+}
+
+.text-violet {
+  color: #9945ff;
+}
+
+.text-green {
+  color: #19fb9b;
+}
+
+.text-yellow {
+  color: #ffd512;
+}
+
+.text-pink {
+  color: #f087ff;
 }
 
 .mr-40px {
@@ -351,4 +375,42 @@ body {
 }
 .mass-adoption p {
   margin-bottom: 20px;
+}
+
+.join {
+  background-color: #42257e;
+  margin-inline: -50px;
+  padding: 20px;
+}
+.join > h2 {
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+.join__card-text {
+  background-color: #19161c;
+  color: #bababa;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 8px;
+  height: 200px;
+}
+.join__card-head {
+  font-size: 37px;
+  margin-bottom: 10px;
+}
+.join__card-desc {
+  font-size: 12px;
+}
+
+.join__gallery {
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+.join__gallery * img {
+  width: 100%;
+  height: 100%;
+}
+.join__gallery__double {
+  flex-basis: 300px;
+  row-gap: 20px;
 }/*# sourceMappingURL=main.css.map */
