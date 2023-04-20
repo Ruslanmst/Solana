@@ -2,8 +2,6 @@
 background-color: black;
 }
 
-
-
 .content {
     //  max-width: 833px;
      max-width: 1196px;
@@ -15,7 +13,6 @@ background-color: black;
 .content__text {
     padding-bottom: 48px;
     text-align: center;
-    
     
     p {
         color: #FFFFFF;
@@ -60,7 +57,6 @@ background-color: black;
         transition: all 0.3s ease-in;
         border: none;
     }
-
 }
 
 .btn__right {
@@ -74,7 +70,6 @@ background-color: black;
     border-radius: 36px;
     padding: 16px 33px 16px 33px;
    
-
     &:hover {
         background: linear-gradient(98.88deg, #8C01FA -2.99%, #000000 102.28%);
         color: $accent-color-btn;
@@ -98,10 +93,66 @@ background-color: black;
     display: flex;
     justify-content: space-between;
     max-width: 1166px;
-    padding-bottom: 145px;
-    
+    padding-bottom: 141px; 
 }
 
 .content__items {
     max-width: 1166px;
 }
+
+// CONTENT NUMBER
+.container__number {
+    max-width: 1196px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    // margin-bottom: 128px;
+}
+
+.number__row {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 159px;
+}
+
+.number__text {
+    max-width: 326px;
+    padding-top: 77px;
+}
+
+.number__title {
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 46px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+
+.millions {
+padding-bottom: 45px;
+}
+
+.number {
+    font-size: 101px;
+    line-height: 132px;
+    background: linear-gradient(261.81deg, #19FB9B -8.01%, #8C01FA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+// text-fill-color: transparent;
+}
+
+.number__p {
+    font-size: 16px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #C4C4C4;
+}
+
+.number__valute {
+    padding-right: 123px;
+}
+
+
+// CONTENT NUMBER
