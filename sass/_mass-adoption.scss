@@ -22,13 +22,28 @@
     padding-top: 60px;
     padding-bottom: 20px;
 
-    &__header-col {
+    &__wrap {
+        @include tablet() {
+            flex-flow: column wrap;
+        }
+
+        @include mobile() {
+            flex-flow: row wrap;
+        }
+    }
+
+    &__col {
         h2 {
             font-size: 40px;
         }
+
         span {
             font-size: 16px;
             text-transform: uppercase;
+        }
+
+        @include tablet() {
+            display: flex;
         }
     }
 

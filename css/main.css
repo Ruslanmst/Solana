@@ -327,12 +327,27 @@ body {
   padding-top: 60px;
   padding-bottom: 20px;
 }
-.mass-adoption__header-col h2 {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .mass-adoption__wrap {
+    flex-flow: column wrap;
+  }
+}
+@media screen and (max-width: 767px) {
+  .mass-adoption__wrap {
+    flex-flow: row wrap;
+  }
+}
+.mass-adoption__col h2 {
   font-size: 40px;
 }
-.mass-adoption__header-col span {
+.mass-adoption__col span {
   font-size: 16px;
   text-transform: uppercase;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .mass-adoption__col {
+    display: flex;
+  }
 }
 .mass-adoption__point {
   padding-left: 10px;
@@ -405,6 +420,11 @@ body {
 .join__gallery {
   -moz-column-gap: 20px;
        column-gap: 20px;
+}
+@media screen and (max-width: 767px) {
+  .join__gallery {
+    flex-flow: column nowrap;
+  }
 }
 .join__gallery * img {
   width: 100%;
