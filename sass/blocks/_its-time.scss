@@ -1,0 +1,19 @@
+.its-time {
+    background-color: black; //temp
+    padding: 60px 30px;
+
+    &__wrap {
+        max-width: 736px;
+        margin-inline: auto;
+    }
+
+    &__header {
+        font-size: 38px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    &__start-btn {
+        @include btn-flex-main();
+    }
+}

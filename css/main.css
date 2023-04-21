@@ -483,4 +483,31 @@ body {
 .join__gallery__double {
   flex-basis: 300px;
   row-gap: 20px;
+}
+
+.its-time {
+  background-color: black;
+  padding: 60px 30px;
+}
+.its-time__wrap {
+  max-width: 736px;
+  margin-inline: auto;
+}
+.its-time__header {
+  font-size: 38px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.its-time__start-btn {
+  color: #fff;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  border-radius: 36px;
+  padding: 16px 33px 16px 33px;
+  background: linear-gradient(98.88deg, #8C01FA -2.99%, #000000 102.28%);
+  border: none;
 }/*# sourceMappingURL=main.css.map */
